@@ -1,0 +1,23 @@
+Type: Compendium
+Package: kpdr_jogja
+Title: Kopdar useR! Yogyakarta
+Version: 0.0.1
+Authors@R: 
+    person(given = "Muhammad Aswan",
+           family = "Syahputra",
+           role = c("aut", "cre"),
+           email = "muhammadaswansyahputra@gmail.com")
+Description: Hands-on materials for practicing topic given in Kopdar useR! Yogyakarta.
+License: CCBY-4.0
+Depends: 
+    knitr,
+    rmarkdown
+Imports: 
+    dplyr,
+    jsonlite,
+    listviewer,
+    purrr,
+    stringr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
